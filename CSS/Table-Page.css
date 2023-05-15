@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+table, th, td {
+    border:1px solid black;
+    margin: auto;
+}
+
+.edit{
+    background-color: gold;
+    height: 30px;
+    width: 80px;
+    margin: 2px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 0;
+
+}
+.td6bck{
+    background-color: Lavender;
+    text-align: center;
+   
+}
+
+.movqe{
+    position: absolute; 
+    height: 50px;
+    width: 50px;
+    border: 0;
+    text-align: center;
+
+}
+
+.deletePropertion{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0;
+    background-color: gold;
+    margin-left: 10px;
+
+}
+th{
+    font-size: 25px;
+    color: gold;
+    background-color: #070404;
+}
+.ulStyle{
+    background-color: lavender;
+    width: 25vw;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+    
+}
+li{
+    height: 40px;
+    border-radius: 10px;
+    background-color: gold;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+#conatiner{
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.postContainer{
+    width: 100vw;
+    height: max-content;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+label{
+    color: black;
+    font-size: 20px;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+    background-color: lightgreen;
+
+}
+#send{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+    background-color: lightgreen;
+    margin-top: 20px;
+
+}
